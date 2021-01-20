@@ -95,6 +95,14 @@ export default function AddSpot(props) {
                     </button>
                   </Link>
                 )}
+                <Link
+                  to={`/profile/QRcode/${selectedSpot._id}`}
+                  className="link"
+                >
+                  <button className="button__submit" type="submit">
+                    Generate QR Code
+                  </button>
+                </Link>
               </div>
             </Popup>
           </div>

@@ -22,7 +22,7 @@ export default function AddSpot(props) {
   }, []);
 
   //   console.log("ALL SPOTS IN OUR DB", allSpots);\
-  console.log("USER ID!!!!", props.user._id);
+  // console.log("USER ID!!!!", props.user._id);
 
   const [selectedSpot, setSelectedSpot] = useState(null);
 

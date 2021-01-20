@@ -16,6 +16,7 @@ import "./App.css";
 import Payment from "./pages/Payment.jsx";
 import DeleteAccount from "./pages/DeleteAccount.jsx";
 import ChangeSpot from "./pages/ChangeSpot";
+import QRcode from "./pages/QRcode";
 
 class App extends React.Component {
   state = {
@@ -137,6 +138,13 @@ class App extends React.Component {
             exact
             path={PATHS.CHANGESPOT}
             component={ChangeSpot}
+            user={this.state.user}
+            authenticate={this.authenticate}
+          />
+          <ProtectedRoute
+            exact
+            path={PATHS.QRCODE}
+            component={QRcode}
             user={this.state.user}
             authenticate={this.authenticate}
           />
