@@ -8,6 +8,7 @@
 
 
 Have you ever wanted to move freely around Barcelona, but were concerned about your bike being stolen or vandalised?
+
 BikeSpot is an application representing a network of secure bike parkings, that allow you to freely move in Barcelona city and not having to worry about your bike safety.
 
 **[- Link to website -](https://bikespot.netlify.app/)**
